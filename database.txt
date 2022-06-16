@@ -5,20 +5,19 @@ Buon lavoro!
 
 
 ID - INT - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
-Targa 
-Marca
-Modello
-Colore
-Alimentazione
-Cilindrata
-Serbatoio
-Batteria_kwh
-Cambio
-Marce
-Porte
-Posti
-Km Percorsi
-Paese Matricola
-Data Immatricolazione
-Comune
-Prezzo
+Targa - VARCHAR(10) - NOTNULL - UNIQUE
+Marca - VARCHAR(20) - NOTNULL
+Modello - VARCHAR(15) -  NOTNULL
+Colore - VARCHAR (10) - NOTNULL
+Alimentazione - VARCHAR (10) - NOTNULL
+Cilindrata - SMALLINT - NULL
+Capienza Serbatoio - TINYINT - NULL
+Batteria_kwh -TINYINT - NULL
+Cambio - VARCHAR(10) - NOTNULL
+Marce - TINYINT - NULL
+Porte - TINYINT - NOTNULL
+Posti - TINYINT - NOTNULL
+Km Percorsi - INT - NOTNULL
+Paese Matricola - VARCHAR(2) - NOTNULL
+Data Immatricolazione - DATE - NOTNULL
+Prezzo - MEDIUMINT - NOTNULL
