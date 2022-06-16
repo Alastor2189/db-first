@@ -1,0 +1,24 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Create un file txt, dove indicate il nome della tabella, le colonne con tipi di dato ed eventuali attributi.
+Ricordatevi che l'esercitazione pomeridiana sarà non oggi, ma domani :occhiolino:
+Buon lavoro!
+
+
+ID - INT - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+Targa 
+Marca
+Modello
+Colore
+Alimentazione
+Cilindrata
+Serbatoio
+Batteria_kwh
+Cambio
+Marce
+Porte
+Posti
+Km Percorsi
+Paese Matricola
+Data Immatricolazione
+Comune
+Prezzo
